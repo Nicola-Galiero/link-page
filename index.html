@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxen Jewels ti ringrazia!</title>
+    <link rel="icon" type="image/png" href="diamante.png"> <!-- Puoi usare il formato PNG, ICO o SVG -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS incorporato -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --white: #e2e8f0;
+            --grey: #94a3b88e;
+            --blue: #090d1759;
+            --lightblue: #1d2531;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 3rem 0;
+            gap: 3rem;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(45deg, #fffaf2, #d9d2cc, #736558, #a69b8d, #40372f);
+            background-size: 400% 400%;
+            animation: gradientAnimation 20s ease infinite;
+            min-height: 100vh;
+            margin: 0;
+            height: 100%;
+            padding-bottom: 0;
+        }
+
+        .img {
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center bottom;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero span:nth-child(2) {
+            font-size: 2.8rem;
+            font-weight: 600;
+            color: #fffaf2;
+            font-family: 'Dancing Script',serif;
+        }
+
+        .hero span:nth-child(3), .hero span:nth-child(4) {
+            padding-top: 15px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: black;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 5px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 468px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background-color: var(--blue);
+            padding: 10px;
+            border-radius: 1.5rem;
+            text-decoration: none;
+            color: var(--white);
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: .3s;
+        }
+
+        .item:hover {
+            transform: scale(1.1);
+        }
+
+        .item-wrap {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .item-wrap div {
+            padding: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--lightblue);
+            border-radius: 1.1rem;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #333;
+            color: #fffaf2;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        @media (width <= 468px) {
+            .links, .hero {
+                width: 100%;
+                padding: 0 1rem;
+            }
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="img">
+            <img src="logo.png" alt="">
+        </div>
+        
+        <span><i>Grazie per l'acquisto!</i> </span>
+        <span>
+            Non perderti le novità! 
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000000" viewBox="0 0 256 256">
+                <path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216Z"></path>
+            </svg>
+        </span>
+        <span>
+            Seguici ora!
+        </span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
+            <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,117.66-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L120,148.69V88a8,8,0,0,1,16,0v60.69l18.34-18.35a8,8,0,0,1,11.32,11.32Z"></path>
+        </svg>
+    </div>
+
+    <div class="links">
+        <a href="https://www.example.com" class="item">
+            <div class="item-wrap">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#5dfba9" viewBox="0 0 256 256">
+                        <path d="M230.14,58.87A8,8,0,0,0,224,56H62.68L56.6,22.57A8,8,0,0,0,48.73,16H24a8,8,0,0,0,0,16h18L67.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,160,204a28,28,0,1,0,28-28H91.17a8,8,0,0,1-7.87-6.57L80.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,230.14,58.87ZM104,204a12,12,0,1,1-12-12A12,12,0,0,1,104,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,200,204Z"></path>
+                    </svg>
+                </div>
+                Web Site
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256">
+                <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com" class="item">
+            <div class="item-wrap">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                        <defs>
+                            <linearGradient id="gradInstagram" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#f09433;stop-opacity:1" />
+                                <stop offset="25%" style="stop-color:#e6683c;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#dc2743;stop-opacity:1" />
+                                <stop offset="75%" style="stop-color:#cc2366;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#bc1888;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#gradInstagram)" d="M176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24ZM128,176a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176Zm60-96a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-28,48a32,32,0,1,1-32-32A32,32,0,0,1,160,128Z"></path>
+                    </svg>
+                </div>
+                Instagram
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256">
+                <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+            </svg>
+        </a>
+        
+        <a href="https://www.tiktok.com" class="item">
+            <div class="item-wrap">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256">
+                        <path d="M232,80v40a8,8,0,0,1-8,8,103.25,103.25,0,0,1-48-11.71V156a76,76,0,0,1-152,0c0-36.9,26.91-69.52,62.6-75.88A8,8,0,0,1,96,88v42.69a8,8,0,0,1-4.57,7.23A20,20,0,1,0,120,156V24a8,8,0,0,1,8-8h40a8,8,0,0,1,8,8,48.05,48.05,0,0,0,48,48A8,8,0,0,1,232,80Z"></path>
+                    </svg>
+                </div>
+                Tiktok
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#e2e8f0" viewBox="0 0 256 256">
+                <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+            </svg>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Luxen Jewels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
